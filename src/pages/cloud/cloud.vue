@@ -6,7 +6,7 @@
         <div class="about-trends">
           <div class="about">
             <img src="./images/about.png"/>
-            <p class="about-p">率先定制消防行业物联网标准，汇集行业大数据、云计算、人工智能处理技术，物联网等构建“<font style="color: #C41335">智慧消防</font>”系统，收集消防设施、设备运行数据，量身定制智慧消防建设方案，实现科学集中管理，引领消防行业跨入信息化及智能化时代！</p>
+            <p class="about-p">率先定制消防行业物联网标准，汇集行业大数据、云计算、人工智能、物联网等技术构建“<font style="color: #C41335">智慧消防</font>”系统，收集消防设施、设备运行数据，量身定制智慧消防建设方案，实现科学集中管理，引领消防行业跨入信息化及智能化时代！</p>
           </div>
           <div class="trends">
             <a class="more" href="/article-encyclop-1.html" target="_blank">更多>></a>
@@ -49,22 +49,22 @@
           <div class="col-3">
             <img src="./images/icon2.png"/>
             <ul class="ul2">
-              <li>PC端可视化一键获得</li>
+              <li style="margin-top: 19px;">PC端可视化一键获得</li>
               <li>APP随时随地查看</li>
               <li>自动语音、短信信息推送</li>
             </ul>
-            <div class="line" style="margin-top: 44px;"></div>
+            <div class="line"></div>
             <!--<img class="ser-line" src="./images/line-or.png"/>-->
             <p class="ser-p">多途径</p>
           </div>
           <div class="col-3">
             <img src="./images/icon3.png"/>
             <ul class="ul3">
-              <li>云存储</li>
+              <li style="margin-top: 17px;">云存储</li>
               <li>云计算</li>
               <li>人工智能技术</li>
             </ul>
-            <div class="line" style="margin-top: 42px;"></div>
+            <div class="line"></div>
             <!--<img class="ser-line" src="./images/line-or.png"/>-->
             <p class="ser-p">智能化</p>
           </div>
@@ -211,6 +211,7 @@
       line-height: 35px;
       margin-top: 10px;
       text-align: left;
+      height: 140px;
     }
     .line{
       width: 50px;

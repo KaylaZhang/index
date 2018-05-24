@@ -52,7 +52,8 @@
         <el-col :span="6" class="tel-line">
           <div class="link-bottom text-left">服务热线：400-1919-119,1380-1919-119</div>
           <div class="link-bottom text-left">（周一至周五9:00—17:00，节假日顺延)</div>
-          <div class="text-left">邮箱：4001919119@zxzx119.com</div>
+          <div class="link-bottom text-left">邮箱：4001919119@zxzx119.com</div>
+          <div class="text-left">地址：上海市淮海中路98号33层</div>
         </el-col>
         <el-col :span="5" class="footer-right">
           <el-row>

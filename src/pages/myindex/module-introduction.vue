@@ -27,7 +27,7 @@
                   <a :href="item.link_to" class="item-title" target="_blank">{{item.title}}</a>
                   <p class="newContent" v-if="item.remarks">
                     <!-- {{item.fold ? maxSlice(item.remarks) : item.remarks}} -->
-                    {{maxSlice(item.remarks)}} 
+                    {{maxSlice(item.remarks)}}
                   </p>
                   <el-row>
                     <el-col :span="18" class="keyWord">{{item.meta_keywords}}</el-col>
@@ -70,115 +70,108 @@
     name: 'module-introduction',
     data: function () {
       return {
-        maxLength:142,
-        activeId:'5,11,14,44,45,47',
-        activeName:'全部',
-        lists:'',
+        maxLength: 142,
+        activeId: '5,11,14,44,45,47',
+        activeName: '全部',
+        lists: '',
         newslists: '',
-        navLists:[
-        {
-          id: '5,11,14,44,45,47',
-          name: '全部'
-        },
-        {
-          id: '11',
-          name: '政策法规'
-        },
-        {
-          id: '5',
-          name: '热点新闻'
-        },
-        {
-          id: '14',
-          name: '消防百科'
-        },
-        {
-          id: '44',
-          name: '专家解读'
-        },
-        {
-          id: '45',
-          name: '展会资讯'
-        },
-        {
-          id: '47',
-          name: '消防科技'
-        }
-      ],
-      tenderLists: [
+        navLists: [
           {
-            location:'广东',
-            title:'新塘镇垃圾中转站点改造工程',
-            link_to:'http://www.xfbid.com/bid/detail/xfbid-13-25168827.html',
-            id:'111',
-            item_date:'2018-05-21'
+            id: '5,11,14,44,45,47',
+            name: '全部'
           },
           {
-            location:'广东',
-            title:'广东省佛山市消防器材装备采购',
-            link_to:'http://www.xfbid.com/bid/detail/xfbid-13-25168709.html',
-            id:'111',
-            item_date:'2018-05-21'
+            id: '11',
+            name: '政策法规'
           },
           {
-            location:'山东',
-            title:'威尼斯东区建设项目室外管网工程施工招标公告',
-            link_to:'http://www.xfbid.com/bid/detail/xfbid-13-25150608.html',
-            id:'111',
-            item_date:'2018-05-21'
+            id: '5',
+            name: '热点新闻'
           },
           {
-            location:'辽宁',
-            title:'古生物博物馆监控改造与消防维修工程招标公告',
-            link_to:'http://www.xfbid.com/bid/detail/xfbid-13-25168415.html',
-            id:'111',
-            item_date:'2018-05-19'
+            id: '14',
+            name: '消防百科'
           },
           {
-            location:'山东',
-            title:'国检董家口临时通关中心实验室改造工程项目招标公告',
-            link_to:'http://www.xfbid.com/bid/detail/xfbid-13-25168209.html',
-            id:'111',
-            item_date:'2018-05-19'
+            id: '44',
+            name: '专家解读'
           },
           {
-            location:'吉林',
-            title:'乌鲁木齐经济技术开发区（头屯河区）2018年度第31期询价采购公告',
-            link_to:'http://www.xfbid.com/bid/detail/xfbid-13-25168094.html',
-            id:'111',
-            item_date:'2018-05-19'
+            id: '45',
+            name: '展会资讯'
           },
           {
-            location:'北京',
-            title:'开发区消防大队青岛经济技术开发区消防大队消防车辆、器材装备购置项目公开招标公告',
-            link_to:'http://www.xfbid.com/bid/detail/xfbid-13-25167953.html',
-            id:'111',
-            item_date:'2018-05-19'
-          },
-          {
-            location:'广西',
-            title:'北流市新荣镇教学楼工程施工招标公告 项目编号：BLZC2018-G2-0086',
-            link_to:'http://www.xfbid.com/bid/detail/xfbid-13-25167448.html',
-            id:'111',
-            item_date:'2018-05-19'
-          },
-          {
-            location:'广西',
-            title:'中鼎誉润工程咨询有限公司横县公安消防大队城西消防站及综合应急救援基地项目岩土工程勘察项目邀请招标公告',
-            link_to:'http://www.xfbid.com/bid/detail/xfbid-13-25167392.html',
-            id:'111',
-            item_date:'2018-05-19'
+            id: '47',
+            name: '消防科技'
           }
         ],
-        defaultImg:'this.src="' + require('./images/module-introduction-img002.png') + '"'
+        tenderLists: [
+          {
+            location:'重庆',
+            title:'上通五公租房二期施工',
+            link_to:'http://www.xfbid.com/bid/detail/xfbid-13-25199360.html',
+            id:'111',
+            item_date:'2018-05-24'
+          },
+          {
+            location:'浙江',
+            title:'北仑行政中心A楼消防安控系统改造采购公告（重发）',
+            link_to:'http://www.xfbid.com/bid/detail/xfbid-13-25199322.html',
+            id:'111',
+            item_date:'2018-05-24'
+          },
+          {
+            location:'浙江',
+            title:'番禺区第五人民医院血液透析室改造工程',
+            link_to:'http://www.xfbid.com/bid/detail/xfbid-13-25199295.html',
+            id:'111',
+            item_date:'2018-05-24'
+          },
+          {
+            location:'广西',
+            title:'食堂抽送风系统及实训实验室设备采购（GXZC2018-G1-16133-KWZB） 公开招标公告',
+            link_to:'http://www.xfbid.com/bid/detail/xfbid-13-25198789.html',
+            id:'111',
+            item_date:'2018-05-24'
+          },
+          {
+            location:'河南',
+            title:'郑州市惠济区地下车库及运动场项目施工图设计招标公告',
+            link_to:'http://www.xfbid.com/bid/detail/xfbid-13-25198380.html',
+            id:'111',
+            item_date:'2018-05-24'
+          },
+          {
+            location: '广东',
+            title: '台山工业新城水步污水处理系统首期工程勘察设计施工总承包（第二次）勘察设计施工总承包',
+            link_to: 'http://www.xfbid.com/bid/detail/xfbid-13-25186148.html',
+            id: '111',
+            item_date: '2018-05-23'
+          },
+          {
+            location: '广东',
+            title: '航城学校多媒体网络电脑室(含考试系统)设备采购（重新招标）',
+            link_to: 'http://www.xfbid.com/bid/detail/xfbid-13-25186540.html',
+            id: '111',
+            item_date: '2018-05-23'
+          },
+          {
+            location: '江苏',
+            title: '江苏理工学院沈家弄安置区消防管道修复工程项目竞争性谈判公告',
+            link_to: 'http://www.xfbid.com/bid/detail/xfbid-13-25186633.html',
+            id: '111',
+            item_date: '2018-05-23'
+          }
+        ],
+        defaultImg: 'this.src="' + require('./images/module-introduction-img002.png') + '"'
       }
     },
     mounted () {
       this.get_data()
     },
     methods: {
-      maxSlice:function (item) {
-        return item.length > this.maxLength ? item.slice(0,this.maxLength) + '...' : item
+      maxSlice: function (item) {
+        return item.length > this.maxLength ? item.slice(0, this.maxLength) + '...' : item
       },
       get_data: function () {
         this.$api.get('/api', {method: 'querywaterfall', page: 1, pagesize: 4, taxonomyid: this.activeId}, (r) => {
@@ -186,13 +179,13 @@
           console.log(this.lists)
         })
         this.$api.get('/api', {method: 'querywaterfall', page: 1, pagesize: 8, taxonomyid: 11}, (r) => {
-        this.newslists = r.data.list
+          this.newslists = r.data.list
         })
       },
-      selected: function(item,id) {
-      this.activeName = item
-      this.activeId = id
-      this.get_data()
+      selected: function (item, id) {
+        this.activeName = item
+        this.activeId = id
+        this.get_data()
       }
     }
   }
@@ -224,7 +217,7 @@
     li.listLeft:last-child {
             border-bottom: 0px;
           }
-          
+
     .span1{margin-right: 48px;font-size: 14px;
       .more{color:#c41335;}
       h4{font-size: 20px;line-height: 28px;border-bottom: 3px solid #c41335;width: 85px;text-align: center;margin-top: -6px;}
@@ -267,7 +260,7 @@
          /* &:not(:last-child) {
             margin-bottom: 10px;
           }*/
-          
+
           .item-date {font-size: 14px;
             display: inline-block;
             overflow: hidden;
